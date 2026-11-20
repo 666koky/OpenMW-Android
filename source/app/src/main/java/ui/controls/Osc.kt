@@ -430,6 +430,8 @@ class Osc {
                 R.drawable.wait, TOP_BAR_SPACING * 4, 0, KeyEvent.KEYCODE_T),
             OscCustomButton("keyboard", "keyboard.png", OscVisibility.NULL,
                 R.drawable.keyboard, TOP_BAR_SPACING * 5, 0) { toggleKeyboard() },
+           OscImageButton("run", "run.png", OscVisibility.NORMAL,
+    R.drawable.third_person, TOP_BAR_SPACING * 7, 0, KeyEvent.KEYCODE_CAPS_LOCK), 
             btnMouse
         )
 
